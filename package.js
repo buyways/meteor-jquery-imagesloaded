@@ -4,6 +4,6 @@ Package.describe({
 
 Package.on_use(function (api) {
 	api.use('jquery', 'client');
-	api.add_files(['lib/masonry/jquery.imagesloaded.js'],'client');
+	api.add_files(['lib/imagesloaded/jquery.imagesloaded.js'],'client');
 });
 
